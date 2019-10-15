@@ -5,8 +5,7 @@
 # 3 is the path to the data directory to upload (pwd/pass_fastq)
 # 4 is the path to the sequening summary file 
 # e.g. command:
-# ./auto_transfer_to_aws_check.5.sh /Users/adoran/Desktop/ont_mac_key /Users/adoran/Desktop/aws_machines.txt /data/experiment/run_id/fastq_pass /data/experiment/run_id/experiment_sequencing_summary.txt
-# ./auto_transfer_to_aws_check5.sh /Users/adoran/Desktop/Training/Machine_keys/ts-aws/ont_mac_key /Users/adoran/Desktop/test_aws_machines.txt /Users/adoran/Desktop/data-sets/shared/temp2 /Users/adoran/Desktop/data-sets/shared/temp2/test_sequ_summ.txt
+# ./auto_transfer_data.sh /path/to/ssh/key/*mac_key /text/file/of/ips/machines.txt /data/experiment/run_id/fastq_pass /data/experiment/run_id/experiment_sequencing_summary.txt
 
 key=$1
 machines=$2
