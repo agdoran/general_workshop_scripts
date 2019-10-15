@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# dated 1910
 # 1 is the SSH key for access to the AWS machines
 # 2 is the input text file of machine IPs (one per line)
 # 3 is the path to the data directory to upload (pwd/pass_fastq)
