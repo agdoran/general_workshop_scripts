@@ -1,6 +1,6 @@
 
-inputFile:   ""
-barcodeFile: "/home/ubuntu/barcoded_yeast/barcoding_summary.txt"
+inputFile:   "/home/ubuntu/data/sequencing_summary.txt"
+barcodeFile: "/home/ubuntu/data/barcoded_yeast/barcoding_summary.txt"
 basecaller:  "Guppy 3.3.0"
 flowcellId:  "FAKXXXX"
 tutorialText: FALSE
