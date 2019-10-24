@@ -46,6 +46,9 @@ while read line; do
  if [ "$?" -eq "0" ]; then
   printf "[At line $counter]: successful connection to $line -IP: $ip\n\n"
 
+  # fix permissions with the machine data directory to allow writing (untested 191024)
+  ssh -n -oStrictHostKeyChecking=no -i $key -q ubuntu@$ip 'sudo chmod -R a+w /data/'
+
   # if succesful start transfer
   # can make this a background transfer when working
   # this will need to  be changed to the location where we want to have the data ready for the analysis
